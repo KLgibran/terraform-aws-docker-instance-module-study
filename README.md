@@ -14,7 +14,7 @@ provider "aws" {
 }
 
 module "docker_instance" {
-    source = "KLgibran/docker-instance/aws"
+    source = "<your-key-pem-file>/docker-instance/aws"
     key_name = "clarusway"
 }
 ```
