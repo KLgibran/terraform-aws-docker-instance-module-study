@@ -10,10 +10,3 @@ output "instance_id" {
   value = aws_instance.tfmyec2.*.id
 }
 
-/* module "name" {
-          source = "value"
-          
-}
-resource "aws_security_group" "name" {
-          vpc_id = module.name.id
-} */
